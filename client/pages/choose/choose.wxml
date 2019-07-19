@@ -1,0 +1,12 @@
+<view class="choose">
+  <radio-group class="radio-group" bindchange="radioChange">
+    <label class="radio" wx:key="{{item.id}}" wx:for="{{items}}">
+      <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+    </label>
+  </radio-group>
+  <image src="/libs/img/11.jpg" mode:widthFix></image>
+  <image src="/libs/img/22.jpg" mode:widthFix></image>
+  <image src="/libs/img/33.jpg" mode:widthFix></image>
+  <image src="/libs/img/44.jpg" mode:widthFix></image>
+  <image src="/libs/img/55.jpg" mode:widthFix></image>
+</view>

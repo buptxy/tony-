@@ -1,0 +1,46 @@
+@import "../../libs/wxss/weui.wxss";
+
+page {
+  background: yellowgreen;
+}
+
+.image_viwe_size {
+  display: flex;
+  justify-content: center;
+  background: yellowgreen;
+  margin-top: 40rpx;
+}
+
+.image_size {
+  width: 300px;
+}
+
+.button_viwe_size {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.button_size {
+  height: 50px;
+  width: 200px;
+}
+
+.text_viwe_size {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color-adjust: ture;
+}
+
+.text_size {
+  display: flex;
+  color: rgb(231, 9, 9);
+}
+
+.progress_view_size {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+}

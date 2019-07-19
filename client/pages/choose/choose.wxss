@@ -1,0 +1,17 @@
+.choose {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25rpx;
+  text-align: center;
+  align-items: center;
+  background: yellowgreen;
+}
+
+image {
+  margin-bottom: 25rpx;
+}
+
+radio {
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
